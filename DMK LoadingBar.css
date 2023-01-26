@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: cyan;
+    background-image: url(backgrounf.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: cursive;
+}
+
+.container{
+   text-align: center;
+   width: 400px;
+   position: relative;
+}
+.container img{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 60%;
+}
+.counter{
+    font-size: 40px;
+}
+
+.loading-bar-back{
+    position: absolute;
+    height: 8px;
+    background-color: gray;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.Loading-bar-front{
+    position: absolute;
+    height: 8px;
+    background-color: cyan;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
